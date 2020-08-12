@@ -33,6 +33,8 @@ li {
   padding: 0px;
   margin: 0px;
 }
+a:link, a:visited{color:#331110;}
+a:active, a:hover{color:#331110;}
 .App-logo {
   height: 16vh;
   pointer-events: none;

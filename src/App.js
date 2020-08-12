@@ -157,7 +157,7 @@ function App() {
                     <ul>
                       <li>
                         <img src={contact} alt="contact Number" />
-                        +45 31 51 24 10
+                        <a href="tel:+4531512410" >+45 31 51 24 10</a>
                       </li>
                       <li>
                         <img src={timing} alt="Timings" />
@@ -177,11 +177,11 @@ function App() {
                       </li>
                       <li>
                         <img src={email} alt="Email" />
-                        binibini09@yahoo.com
+                        <a href="mailto:binibini09@yahoo.com?subject=Inquiry about products">binibini09@yahoo.com</a>
                       </li>
                       <li>
                         <img src={facebook} alt="Facebook Link" />
-                        facebook.com/pg/wintaafricantouch/
+                        <a href="https://www.facebook.com/wintaafricantouch/" target="_blank" rel="noopener noreferrer">facebook.com/pg/wintaafricantouch/</a>
                       </li>
                     </ul>
                   </Col>
@@ -205,7 +205,7 @@ function App() {
       <footer>
         <section>
           <Container className="text-center pt-3 pb-3">
-            All rights reserved Copyright @ 2020.
+            &copy; 2020 <a href="https://www.hackyourfuture.dk/" target="_blank" rel="noopener noreferrer">HackYourFuture CPH</a>, Designed and developed by <a href="https://priyankasharma.netlify.app" target="_blank" rel="noopener noreferrer">PriyankaSharma.</a>
           </Container>
         </section>
       </footer>
