@@ -45,7 +45,7 @@ function App() {
 
       <main>
         <section className="bannerarea">
-          <Container>
+          <Container fluid>
             <Row>
               {/* <Col> */}
               <img src={banner} className="" alt="banner" />

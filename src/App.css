@@ -37,6 +37,7 @@ a:link, a:visited{color:#331110;}
 a:active, a:hover{color:#331110;}
 .App-logo {
   height: 16vh;
+  width: auto;
   pointer-events: none;
 }
 .navbar-nav .nav-link {
@@ -62,7 +63,7 @@ a:active, a:hover{color:#331110;}
 
 .bannerarea img {
   height: auto;
-  width: auto;
+  width: 100%;
 }
 .list-group-item img {
   width: 100%;
