@@ -50,7 +50,6 @@ a:active, a:hover{color:#331110;}
 
 .bannerarea {
   background-color: #febc16;
-  background-image: url("./assets/banner.jpg");
   display: -ms-flexbox;
   display: flex;
   position: relative;
@@ -59,7 +58,6 @@ a:active, a:hover{color:#331110;}
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  min-height: 600px;
 }
 
 .bannerarea img {
@@ -75,10 +73,8 @@ a:active, a:hover{color:#331110;}
 .bgorange {
   background: #febc16;
 }
-
 .card {
   border: 1px solid #c9c7c8;
-  width: 15rem;
   margin-right: 3rem;
 }
 .card:last-child {

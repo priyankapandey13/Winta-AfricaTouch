@@ -1,7 +1,6 @@
 import React from "react";
-// import logo from './logo.svg';
 import logo from "./assets/wintalogo.png";
-// import banner from "./assets/banner.jpg";
+import banner from "./assets/banner.jpg";
 import product01 from "./assets/prod01.jpg";
 import product02 from "./assets/prod02.jpg";
 import product03 from "./assets/prod03.jpg";
@@ -16,8 +15,7 @@ import email from "./assets/email.png";
 import facebook from "./assets/facebook.png";
 
 import ownerpic from "./assets/owner.png";
-// import  from 'react-bootstrap';
-import { Container, Navbar, Nav, Row, Col, Card } from "react-bootstrap";
+import { Container, Navbar, Nav, Row, Col, Card} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Iframe from "react-iframe";
@@ -49,14 +47,16 @@ function App() {
         <section className="bannerarea">
           <Container>
             <Row>
-              <Col></Col>
+              {/* <Col> */}
+              <img src={banner} className="" alt="banner" />
+              {/* </Col> */}
             </Row>
           </Container>
         </section>
 
         <section id="Our-Products">
           <Container className="pt-5 pb-5 mt-4 mb-3 pb-4 text-center">
-            <Row className="justify-content-md-center">
+            {/* <Row className="justify-content-md-center"> */}
               <h3 className="mb-3">Our Products</h3>
               <p>
                 Your beauty is our duty!! Winta Africa Touch is a cosmetics
@@ -66,7 +66,8 @@ function App() {
                 large selection of hairs, e.g. Wig afro short, Wig semi and Wig
                 cool.
               </p>
-
+              <Row>
+              <Col xs={12} md={4} lg={3} xl={3} className="mb-3">
               <Card>
                 <Card.Img variant="top" src={product01} />
                 <Card.Body>
@@ -74,19 +75,25 @@ function App() {
                     Texture Softner
                   </Card.Title>
                 </Card.Body>
-              </Card>
+                </Card>
+                </Col>
+                <Col  xs={12} md={4} lg={3} xl={3} className="mb-3">
               <Card>
                 <Card.Img variant="top" src={product02} />
                 <Card.Body>
                   <Card.Title className="text-center">Jebena</Card.Title>
                 </Card.Body>
               </Card>
+              </Col>
+              <Col  xs={12} md={4} lg={3} xl={3} className="mb-3">
               <Card>
                 <Card.Img variant="top" src={product03} />
                 <Card.Body>
                   <Card.Title className="text-center">dabo mesob</Card.Title>
                 </Card.Body>
               </Card>
+              </Col>
+              <Col  xs={12} md={4} lg={3} xl={3} className="mb-3">
               <Card>
                 <Card.Img variant="top" src={product04} />
                 <Card.Body>
@@ -95,6 +102,7 @@ function App() {
                   </Card.Title>
                 </Card.Body>
               </Card>
+              </Col>
             </Row>
           </Container>
         </section>
@@ -103,7 +111,8 @@ function App() {
           <Container className="pt-5 pb-5 mt-5 ">
             <h3 className="mb-4 text-center">About Us</h3>
             <Row>
-              <Col md={{ span: 5 }} className="mt-3 mr-5 pr-2">
+              <Col xs={12} md={5} lg={6} className="mt-3 mr-5"
+              >
                 <p>
                   Winta Africa Touch, located at Nørrebrogade 74 just opposite
                   Assistens Kirkegården in Nørrebro, Copenhagen was founded by
@@ -126,7 +135,8 @@ function App() {
                   you in the shop.
                 </p>
               </Col>
-              <Col md={{ span: 6 }} className="ml-4 pr-0">
+              <Col xs={12} md={6} lg={5} className="pl-0 pr-0"
+              >
                 <img src={wintashop} className="" alt="wintashop" />
               </Col>
             </Row>
