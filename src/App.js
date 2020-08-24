@@ -47,16 +47,13 @@ function App() {
         <section className="bannerarea">
           <Container fluid>
             <Row>
-              {/* <Col> */}
               <img src={banner} className="" alt="banner" />
-              {/* </Col> */}
             </Row>
           </Container>
         </section>
 
         <section id="Our-Products">
           <Container className="pt-5 pb-5 mt-4 mb-3 pb-4 text-center">
-            {/* <Row className="justify-content-md-center"> */}
               <h3 className="mb-3">Our Products</h3>
               <p>
                 Your beauty is our duty!! Winta Africa Touch is a cosmetics
@@ -171,7 +168,7 @@ function App() {
                       </li>
                       <li>
                         <img src={timing} alt="Timings" />
-                        10:00 AM – 18:00 PM
+                        10:00 – 18:00
                       </li>
                       <li>
                         <img src={cvr} alt="CVR Number" />
@@ -191,7 +188,7 @@ function App() {
                       </li>
                       <li>
                         <img src={facebook} alt="Facebook Link" />
-                        <a href="https://www.facebook.com/wintaafricantouch/" target="_blank" rel="noopener noreferrer">facebook.com/pg/wintaafricantouch/</a>
+                        <a href="https://www.facebook.com/wintaafricantouch/" target="_blank" rel="Facebook link">facebook.com/pg/wintaafricantouch/</a>
                       </li>
                     </ul>
                   </Col>
@@ -215,7 +212,7 @@ function App() {
       <footer>
         <section>
           <Container className="text-center pt-3 pb-3">
-            &copy; 2020 <a href="https://www.hackyourfuture.dk/" target="_blank" rel="noopener noreferrer">HackYourFuture CPH</a>, Designed and developed by <a href="https://priyankasharma.netlify.app" target="_blank" rel="noopener noreferrer">PriyankaSharma.</a>
+            &copy; 2020 <a href="https://www.hackyourfuture.dk/" target="_blank" rel="Hack Your Future">HackYourFuture CPH</a> partnered with <a href="https://www.finklusiv.dk/" target="_blank" rel="Finklusiv">Finklusiv.dk</a>, Designed and developed by <a href="https://priyankasharma.netlify.app" target="_blank" rel="Priyanka Sharma">Priyanka Sharma.</a>
           </Container>
         </section>
       </footer>
