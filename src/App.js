@@ -188,7 +188,7 @@ function App() {
                       </li>
                       <li>
                         <img src={facebook} alt="Facebook Link" />
-                        <a href="https://www.facebook.com/wintaafricantouch/" target="_blank" rel="Facebook link">facebook.com/pg/wintaafricantouch/</a>
+                        <a href="https://www.facebook.com/wintaafricantouch/" target="_blank" rel="noopener noreferrer">facebook.com/pg/wintaafricantouch/</a>
                       </li>
                     </ul>
                   </Col>
@@ -212,7 +212,7 @@ function App() {
       <footer>
         <section>
           <Container className="text-center pt-3 pb-3">
-            &copy; 2020 <a href="https://www.hackyourfuture.dk/" target="_blank" rel="Hack Your Future">HackYourFuture CPH</a> partnered with <a href="https://www.finklusiv.dk/" target="_blank" rel="Finklusiv">Finklusiv.dk</a>, Designed and developed by <a href="https://priyankasharma.netlify.app" target="_blank" rel="Priyanka Sharma">Priyanka Sharma.</a>
+            &copy; 2020 <a href="https://www.hackyourfuture.dk/" target="_blank" rel="noopener noreferrer">HackYourFuture CPH</a> partnered with <a href="https://www.finklusiv.dk/" target="_blank" rel="noopener noreferrer">Finklusiv.dk</a>, Designed and developed by <a href="https://priyankasharma.netlify.app" target="_blank" rel="noopener noreferrer">PriyankaSharma.</a>
           </Container>
         </section>
       </footer>
